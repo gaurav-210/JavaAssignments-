@@ -3,12 +3,8 @@ package class2Assignment;
 //program to find check given no is prime  or not
 
 public class Class2_Reverse_GauravChauhan {
-
-    //program begins with call to main
-
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         int num = 63155, revNum = 0, tempNum, lastDigit;
-
         while (num != 0) {
             tempNum = num / 10;
             lastDigit = num % 10;
